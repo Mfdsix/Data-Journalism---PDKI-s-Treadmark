@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(layout='centered')
-df = pd.read_excel("./all.xlsx")
+df = pd.read_csv("./all.csv", delimiter="|")
 
 st.title("INSIGHTS MENGENAI MEREK DAGANG PDKI")
 
