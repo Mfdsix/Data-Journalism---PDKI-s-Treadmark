@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 st.set_page_config(layout='centered')
-df = pd.read_excel("./all.xls", engine='openpyxl')
+df = pd.read_excel("./all.xlsx")
 
 st.title("INSIGHTS MENGENAI MEREK DAGANG PDKI")
 
